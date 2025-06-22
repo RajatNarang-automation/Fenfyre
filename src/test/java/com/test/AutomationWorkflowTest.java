@@ -1,5 +1,8 @@
 package com.test;
 
-public class AutomationWorkflowTest {
+import org.openqa.selenium.WebDriver;
 
+public class AutomationWorkflowTest
+{
+ //WebDriver driver
 }
