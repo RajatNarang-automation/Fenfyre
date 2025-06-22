@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" parallel="false">
+
+    <test name="Login and CRM Tests">
+        <classes>
+            <class name="com.test.LoginTest"/>
+            <class name="com.test.CrmTest"/>
+        </classes>
+    </test>
+
+    <test name="Create Pipeline Tests">
+        <classes>
+            <class name="com.test.CreatePipelineTest"/>
+        </classes>
+    </test>
+
+    <test name="Email Templates Tests">
+        <classes>
+            <class name="com.test.EmailTemplatesTest"/>
+        </classes>
+    </test>
+
+</suite>

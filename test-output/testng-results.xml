@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-22T18:17:19 IST" name="Default suite" finished-at="2025-06-22T18:17:45 IST" duration-ms="25917">
+    <groups>
+    </groups>
+    <test started-at="2025-06-22T18:17:19 IST" name="Default test" finished-at="2025-06-22T18:17:45 IST" duration-ms="25917">
+      <class name="com.test.ContactAttributestTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:19 IST" name="setup" finished-at="2025-06-22T18:17:20 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLogin()[pri:0, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:20 IST" name="setupLogin" finished-at="2025-06-22T18:17:26 IST" duration-ms="6809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method is-config="true" signature="setupEmailTemplates()[pri:0, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:26 IST" name="setupEmailTemplates" finished-at="2025-06-22T18:17:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEmailTemplates -->
+        <test-method signature="adminPanelOpenSuccessfully()[pri:1, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:26 IST" name="adminPanelOpenSuccessfully" finished-at="2025-06-22T18:17:32 IST" duration-ms="5286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminPanelOpenSuccessfully -->
+        <test-method signature="Alert_handle()[pri:2, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:32 IST" name="Alert_handle" finished-at="2025-06-22T18:17:34 IST" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alert_handle -->
+        <test-method signature="openEmailTemplate()[pri:3, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:34 IST" name="openEmailTemplate" finished-at="2025-06-22T18:17:35 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openEmailTemplate -->
+        <test-method signature="Save_Contract_Attributes()[pri:4, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:35 IST" name="Save_Contract_Attributes" finished-at="2025-06-22T18:17:37 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Save_Contract_Attributes -->
+        <test-method signature="Edit_Contract_Attributes()[pri:5, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:37 IST" name="Edit_Contract_Attributes" finished-at="2025-06-22T18:17:42 IST" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Contract_Attributes -->
+        <test-method signature="delete_email_template()[pri:6, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:42 IST" name="delete_email_template" finished-at="2025-06-22T18:17:44 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_email_template -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ContactAttributestTest@4a003cbe]" started-at="2025-06-22T18:17:44 IST" name="tearDown" finished-at="2025-06-22T18:17:45 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ContactAttributestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
