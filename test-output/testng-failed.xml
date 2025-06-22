@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.ContactAttributestTest">
+      <class name="com.test.AutomationWorkflowTest">
         <methods>
-          <include name="Edit_Contract_Attributes"/>
-          <include name="setup"/>
-          <include name="delete_email_template"/>
-          <include name="tearDown"/>
-          <include name="setupLogin"/>
           <include name="setupEmailTemplates"/>
+          <include name="Add_workflow_for_pipeline"/>
+          <include name="setup"/>
+          <include name="setupLogin"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.test.ContactAttributestTest -->
+      </class> <!-- com.test.AutomationWorkflowTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
