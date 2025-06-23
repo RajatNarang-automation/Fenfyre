@@ -4,8 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.pages.AutomationWorkflowPage;
-import com.pages.ContactAttributesPage;
-import com.pages.CreatePipelinePage;
+
 
 public class AutomationWorkflowTest extends LoginTest
 {
@@ -26,15 +25,21 @@ public class AutomationWorkflowTest extends LoginTest
         test.pass("Automation  workflow opened successfully");
     }
     @Test(priority = 2)
-    public void Add_workflow_for_pipeline()
+    public void Add_workflow_for_pipeline() throws InterruptedException
     {
-        test.info("We are added workflow.");
+        test.info("We are Open workflow module popup.");
         AutomationWorkflowPageobj.Open_Workflow_For_Add_Rule();
         AutomationWorkflowPageobj.Choose_Automation();
-        AutomationWorkflowPageobj.Choose_workflow_for_pipline_and_contact_attributes("Pipeline");
+        test.pass("workflow popup sucesfully opend");  
+    }
+    @Test(priority = 3)
+    public void enter_workflowname()
+    {
+    	test.info("We are now add workflow stage.");
+    	AutomationWorkflowPageobj.Choose_workflow_for_pipline_and_contact_attributes("Pipeline");
         AutomationWorkflowPageobj.Enter_Workflow_name("New worklow add");
         AutomationWorkflowPageobj.Enter_workflow_description("Hi we are add some desc");
         AutomationWorkflowPageobj.Save_Our_Workflow();
-        test.pass("workflow added sucesfully");
+        test.pass("workflow are now sucesfully stage first"); 
     }
 }

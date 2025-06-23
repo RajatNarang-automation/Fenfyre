@@ -18,7 +18,7 @@ public class AutomationWorkflowPage
     private By Workflowrules = By.xpath("//span[normalize-space()='Workflow Rules']"); 
     private By CreateNewRule = By.cssSelector("[id='addUser']");
     private By Countryid = By.cssSelector("[id='country_id']");
-    private By Enterworkflowname = By.cssSelector("[placeholder='Enter Workflow Name']");
+    private By Enterworkflowname = By.cssSelector("[id='Names']");
     private By description = By.cssSelector("[id='Description']");
     private By saveworkflow = By.cssSelector("[id='save']");
     
